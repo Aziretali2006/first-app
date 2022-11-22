@@ -1,0 +1,587 @@
+body{
+    margin: 0;
+}
+
+.container{
+    width: 50%;
+    margin: auto;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: 25px;
+}
+
+.left-nav{
+    display: flex;
+    gap: 70px;
+}
+
+.left-nav ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.left-nav h1{
+    font-size: 24px;
+}
+
+.left-nav ul li{
+    color: #1D1F2E;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.right-nav{
+    display: flex;
+    gap: 7px
+}
+
+.right-nav ul li{
+    color: #1D1F2E;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.lines{
+    display: none;
+}
+
+
+
+/* MAIN */
+
+
+.banner{
+    background: url('../assets/images/Image\ \(25\).png') center / cover;
+    width: 100%;
+    height: 60vh;
+}
+
+.color{
+    background:#050827 ;
+    margin: 20px;
+}
+
+.banner-content{
+    text-align: center;
+    padding-top: 170px;
+}
+
+.banner-content b{
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    top: 20px;
+}
+
+.banner-content h2{
+    font-size: 47px;
+    font-weight: 400;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+
+.banner-content p{
+    font-size: 17px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+ .banner-content button:hover{
+    width: 250px;
+    color:orange;
+    background-color:#050827;
+    transition: .5s;
+}
+
+.banner-content button{
+    font-size: 12px;
+    font-weight: 400;
+    color: #1D1F2E;
+    text-transform: uppercase;
+    border: none;
+    padding: 2px 24px;
+    margin-top: 50px;
+    letter-spacing: 2px;
+}
+
+.text{
+    margin: 130px;
+    text-align: center;
+}
+
+.text h2{
+    color: #1D1F2E;
+    font-size: 28;
+    font-weight: 400;
+} 
+
+.text p{
+    color:  rgba(29, 31, 46, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.text button{
+    width: auto;
+    font-size: 14px;
+    font-weight: 400;
+    color: #A25F4B;
+    background-color: #FFFFFF;
+    border: none;
+    text-decoration: underline;
+}
+
+.featured{
+    text-align: center;
+    font-size: 12px;
+    margin-top: 100px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: #1D1F2E;
+    text-transform: uppercase;
+}
+
+.featured button{
+    width: 30px;
+    height: 1px;
+    background:  #ECECED;
+    border: none;
+}
+
+.image{
+    overflow: hidden;
+    margin-top: 120px;
+    display: flex;
+    text-align: center;
+    text-transform: capitalize;
+    gap: 30px;
+}
+
+.left-img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.right-img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+
+.left-img p{
+    color:  #1D1F2E;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.left-img span{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgba(29, 31, 46, 0.7);
+}
+
+
+.right-img p{
+    color:  #1D1F2E;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.right-img span{
+    color: #A25F4B;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.right-img b{
+    color: rgba(29, 31, 46, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: line-through;
+    margin: 0px 10px;
+}
+
+/* Products */
+
+.product{
+    text-align: center;
+    color: #1D1F2E;
+    margin-top: 115px;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.product button{
+    width: 30px;
+    height: 1px;
+    background:  #ECECED;
+    border: none;
+}
+
+
+.row{
+    width: 30%;
+    margin-top: 100px;
+    display: flex;
+    text-align: center;
+    gap: 17px;
+}
+
+
+.card-1 h2{
+    color:#1D1F2E;
+    margin-top: 35px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: capitalize;
+}
+
+ .card-1 span{
+    color: #A25F4B;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 32px;
+    margin: 0 10px;
+}
+
+.card-1 b{
+    color: rgba(29, 31, 46, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: line-through;
+}
+
+.card h2{
+    color:#1D1F2E;
+    margin-top: 35px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+
+.card span{
+    color: rgba(29, 31, 46, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.chapter{
+    text-align: center;
+    color: #1D1F2E;
+    margin-top: 100px;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.chapter button{
+    width: 30px;
+    height: 1px;
+    background:  #ECECED;
+    border: none;
+}
+
+.content{
+    display: flex;
+    width: auto;
+    font-family: 'Karla';
+    margin-top: 100px;
+    padding: 0 20px;
+}
+
+.conten img{
+    width: 280px;
+    height: 280px;
+}
+
+.cont{
+    flex-direction: column;
+}
+
+.cont img{
+    margin: 5px 0;
+}
+
+
+.left-content{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.text-content p{
+    font-size: 12;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: #1D1F2E;
+}
+
+.text-content h2{
+    font-size: 36px;
+    line-height: 52px;
+    font-weight: 400;
+    color: #1D1F2E;
+}
+
+.text-content 
+h3{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgba(29, 31, 46, 0.7);
+}
+
+.text-content button{
+    margin-top: 20px;
+    background: #1D1F2E;
+    border-radius: 0;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding: 9px 24px;
+    text-transform: uppercase;
+}
+
+.inline-banner{
+    background: url('../assets/images/IMAGE\ \(41\).png') center / cover;
+    width: auto;
+    height: 50vh;
+    margin: 130px 0;
+}
+
+.behind{
+    text-align: center;
+    color: #1D1F2E;
+    margin-top: 100px;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.behind button{
+    width: 30px;
+    height: 1px;
+    background:  #ECECED;
+    border: none;
+}
+
+.box{
+    margin-top: 102px;
+    display: flex;
+    gap: 20px;
+}
+
+.card h2{
+    text-transform:none;
+    font-size: 20px;
+    font-weight: 400;
+    color: #1D1F2E;
+}
+
+.card p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(29, 31, 46, 0.7);
+}
+
+.card b{
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: #1D1F2E;
+}
+
+.bot-banner{
+    background: #1D1F2E;
+    width: auto;
+    height: 327px;
+    margin: 0 30px;
+}
+
+.sign-up{
+    padding-top: 80px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 100px;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+
+.sign-up h2{
+    margin-top: 15px;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 50px;
+    color:  #FFFFFF;
+    text-transform: capitalize;
+}
+
+.sign-up button{
+    width: 30px;
+    height: 1px;
+    background: rgba(210, 210, 213, 0.1);
+    border: none;
+}
+
+.subscribe{
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.subscribe input{
+    margin-top: 25px;
+    width: 350px;
+    box-sizing: border-box;
+    border: 1px solid #2F303E;
+    border-radius: 0;
+    padding: 18px;
+    color: #FFFFFF;
+}
+
+.subscribe button{
+    width: 129px;
+    height: 54px;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color:  #000000;
+    background: #FFFFFF;
+    box-shadow:  0px 2px 6px rgba(29, 31, 46, 0.1);
+    border-radius: 0;
+    text-transform: uppercase;
+}
+
+
+
+/* FOOTER */
+
+.footer-banner{
+    padding-bottom: 62px;
+}
+
+.inline-lists{
+    margin-top: 107px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+}
+
+.inline-lists ul p{
+    font-size: 12px;
+    font-weight: 400;
+    initial-letter: 2px;
+    text-transform: uppercase;
+}
+
+.inline-lists ul li{
+    margin-top: 23px;
+    margin: 10px 0;
+    color: rgba(29, 31, 46, 0.7);
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.inline-lists h3{
+    color: #1D1F2E;
+    font-size: 23px;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 55px;
+}
+
+.inline-lists ul b{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(29, 31, 46, 0.3);
+    margin-top: 83px;
+}
+
+
+
+
+/* ADAPTIVKA */
+
+
+
+@media screen and (max-width:1440px) {
+    .container{
+        width: 66%;
+        margin: auto;
+    }
+
+    .banner{
+        width: 100%;
+        height: 80vh;
+    }
+
+    .lines{
+        display: none;
+    }
+
+    .row{
+        display: flex;
+        align-items: center;
+        gap: 39px;
+    }
+
+    .card-1{
+        width: 100%;
+        height: 500px;
+    }
+
+    .card{
+        width: 100%;
+        height: 500px;
+    }
+
+
+}
+
+@media screen and (max-width:1024px) {
+    .container{
+        width: 92%;
+        margin: auto;
+    }
+
+    .lines{
+        display: none;
+    }
+}
